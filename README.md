@@ -137,7 +137,7 @@ Ejemplos:
 **❌ Expresión inválida:**
   - `5 3 + *` → Error por operandos insuficientes.
 
-##📸 Capturas de Pantalla
+## 📸 Capturas de Pantalla
 
 **Ejemplos**
 
