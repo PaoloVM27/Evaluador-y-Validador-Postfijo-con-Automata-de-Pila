@@ -83,3 +83,85 @@ Este proyecto fue desarrollado como **trabajo final** para el curso de **Teoría
 
 ```bash
 git clone https://github.com/floowxy/Postfix-Evaluator-and-Validator-with-Pushdown-Automaton-PA-.git
+
+cd Postfix-Evaluator-and-Validator-with-Pushdown-Automaton-PA-
+```
+2️⃣ Abrir el proyecto en Visual Studio Code
+code .
+
+3️⃣ Instalar la extensión Live Server (una sola vez)
+
+Abre la pestaña Extensiones (Ctrl + Shift + X).
+
+Busca "Live Server" (autor: Ritwick Dey).
+
+Haz clic en "Instalar".
+
+4️⃣ Ejecutar el proyecto
+
+En el explorador de archivos de VS Code, haz clic derecho sobre index.html.
+
+Selecciona "Open with Live Server".
+
+El navegador se abrirá automáticamente (por ejemplo en:
+
+http://127.0.0.1:5500
+
+http://localhost:5500).
+
+👀 Uso Básico
+
+Ingresa una expresión en Notación Postfija, por ejemplo:
+
+5 3 + 2 *
+
+
+Presiona el botón Evaluar (o equivalente en la interfaz).
+
+El sistema:
+
+Validará la expresión con el Autómata de Pila.
+
+Mostrará si es válida o inválida.
+
+En caso válido, mostrará el resultado numérico.
+
+Ejemplos:
+
+✅ Expresión válida:
+5 3 + 2 * → Resultado esperado: 16.
+
+❌ Expresión inválida:
+5 3 + * → Error por operandos insuficientes.
+
+📸 Capturas de Pantalla
+
+💡 Recomendación: agrega aquí 2–3 imágenes o un GIF del proyecto en acción.
+
+Ejemplos (rellena con tus rutas de imagen reales):
+
+Ejemplo de entrada válida
+
+![Expresión postfija válida: 5 3 + 2 *](./assets/valid-expression.png)
+
+
+Ejemplo de entrada inválida
+
+![Expresión postfija inválida: 5 3 + *](./assets/invalid-expression.png)
+
+🧑‍💻 Autores
+
+Este proyecto fue desarrollado por:
+
+Alexis Gonzales
+
+Diego Sotelo
+
+Paolo Villavicencio
+
+Álvaro Salazar
+
+📄 Licencia
+
+Este proyecto se distribuye bajo la licencia indicada en el archivo LICENSE de este repositorio.
+Si aún no la has definido, una opción común es la licencia MIT.
