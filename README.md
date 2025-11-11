@@ -123,11 +123,11 @@ code .
 
 **3.** El sistema:
 
-  - Validará la expresión con el Autómata de Pila.
+  - Validará la expresión con el **Autómata de Pila**.
 
-  - Mostrará si es válida o inválida.
+  - Mostrará si es **válida** o **inválida**.
 
-  - En caso válido, mostrará el resultado numérico.
+  - En caso **válido**, mostrará el **resultado numérico**.
 
 Ejemplos:
 
